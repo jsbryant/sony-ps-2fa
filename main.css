@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+header #hero {
+	position: relative;
+	width: 100vw;
+	height: 80vh;
+	background: url(img/ps-bkgd.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*background-image: linear-gradient(to right, #306CAE, #102F70);*/
+	text-align: center;
+	color: #fff;
+}
+
+header #hero h1 {
+	font-size: 3rem;
+	line-height: 80vh;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.1);
+}
+
+h2 {
+	color: #296dd0;	
+}
+
+
+hr.vert-white {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	border: none;
+	background: #fff;
+	width: 1px;
+	height: 60px;
+}
+
+#container {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+#design {
+	padding-top: 24px;
+}
+
+hr.vert-blue {
+	position: relative;
+	top: 0;
+	left: 50%;
+	border: none;
+	background: #204E8F;
+	width: 1px;
+	height: 60px;
+	margin-bottom: 40px;
+}
+
+#video {
+	margin: 16px 0;
+}
+
+img {
+	margin: 16px 0;
+	width: 100%;
+	max-width: 720px;
+}
+
+p {
+	padding: 16px 0 40px;
+}
+
+#design p {
+	padding: 16px 0 16px;
+}
+
+.small-text {
+	font-size: 14px;
+	color: #8b8b8b;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #2F69AB;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin-right: 16px;
+}
+
+li::last-child {
+	margin-right: 0px;
+}
+
+a.social {
+	text-decoration: none;
+}
+
+a.social:hover {
+	color: #1B4C84;
+}
+
+#thanks p {
+	padding: 64px 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+#follow {
+	padding: 64px 0;
+	text-align: center;
+}
+
+footer {
+	background-color: #f5f5f5;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 700px) {
+		#follow li {
+			display: block;
+			line-height: 2.5;
+		}
+}
+
+@media only screen and (max-width: 600px) {
+		header #hero h1 {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+		header #hero h1 {
+		font-size: 1.5rem;
+	}
+}
+/*End media queries*/
