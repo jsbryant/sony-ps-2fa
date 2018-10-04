@@ -5,7 +5,6 @@
 
 html {
     overflow: scroll;
-    overflow: -moz-scrollbars-none;
     overflow-x: hidden;
 }
 
