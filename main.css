@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -14,8 +16,8 @@ html {
 }
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
-	line-height: 1.5;
+	font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.68;
 }
 
 header #hero {
@@ -53,10 +55,15 @@ hr.vert-white {
 	height: 60px;
 }
 
-#container {
+.container {
 	max-width: 720px;
 	margin: 0 auto;
 	padding: 0 16px;
+}
+
+#role {
+	display: flex;
+	justify-content: center;
 }
 
 #design {
